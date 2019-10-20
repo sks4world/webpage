@@ -1,0 +1,368 @@
+<!DOCTYPE = 'html'>
+<html>
+
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>
+	</title>
+</head>
+
+<body>
+	<header>
+
+		<div class='headerdiv'>
+			<h3>Food and Drug Recalls</h3>
+		</div>
+
+	</header>
+
+	<section>
+		<div class='divwon'>
+			
+			<span class='dot'></span>
+			<span class='dot'></span>
+			<span class='dot'></span>
+
+		</div>
+
+		<div class='divtwo'>
+			
+			<h5>Search Recalls Or Click on a Menu to learn more</h5>
+
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="#">About Us</a>
+				<a href="foodrecall.html">Food</a>
+				<a href="drugrecall.html">Drug</a>
+				<a href="#">Blogs</a>
+				<div class="animation start-home"></div>
+			</nav>	
+
+		</div>
+		<div class='divthree'>
+			
+			
+
+		</div>
+
+		<div class='divfour'>
+			
+			<p>
+  				Information on <span>Food Recalls and Drug Recalls</span> Be Informed
+			</p>
+
+		</div>
+
+		<div class='divfive'>
+			<div class='blog1'>
+				<h4>What is a food and drug recall?</h4>
+
+<h5>Ideally suppliers or manufacturers remove products that are potentially dangerous for health or are mislabeled. In most cases such products can be identified in the company’s internal testing itself. But when it is not, Food and Drug Administration (FDA) finds it and recalls the product. Products, therefore can be recalled while they are on the shelf or before as well. This system of recalling food/drug is extremely helpful for public protection against defective and potentially harmful products.</h5>
+			</div>
+			<div class='blog2'>
+				<h4>How are Recalls classified?</h4>
+				<h5>Class I: A product that could be fatal.
+					Class II: A product that can cause moderate to serious health issues.
+ 					Class III: A products that violates the labeling and manufacturing guidelines of FDA. But does not pose any health issues.</h5>				
+			</div>
+			<div class='blog3'>
+				<h4>Related Articles</h4>
+				<h5>McCain Foods Product Recalls
+					<a href="url">https://www.fda.gov/safety/major-product-recalls/mccain-foods-product-recalls</a>
+                    </h5>
+				
+			</div>
+  		<!-- 		<form class="form-style-9">
+  					<h3>To Search Recalls Enter Your Desired Criteria To Know More </h3>
+					<ul>
+					<li>
+					    <input type="text" name="field1" class="field-style field-split align-left" placeholder="Date From" />
+					    <input type="email" name="field2" class="field-style field-split align-right" placeholder="Date To" />
+
+					</li>
+					<li>
+					    <input type="text" name="field3" class="field-style field-split align-left" placeholder="City" />
+					    <input type="url" name="field4" class="field-style field-split align-right" placeholder="Country" />
+					</li>
+					<li>
+					<input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
+					</li>
+					<li>
+					<input type="submit" value="Search Recalls" />
+					</li>
+					</ul>
+				</form> -->
+
+  		</div>
+
+  	<!-- 	<div class='divsix'>
+
+  			<h4>Output table below is obtained courtesy FDA API ouptut</h4>	
+  			<table class="gridtable">
+				<tr>
+					<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>
+				</tr>
+				<tr>
+					<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
+				</tr>
+				<tr>
+					<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
+				</tr>
+			</table>
+
+
+  		</div> -->
+
+
+
+	</section>
+
+	<footer>
+		
+	</footer>
+
+</body>
+
+<style>
+body {
+	background-color: black;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	text-align: center;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:100;
+	text-align: center;
+	font-weight: 300;
+	color:white;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	text-align: center;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	text-align: center;
+}
+h5{
+	font-family: 'Montserrat', sans-serif;
+	color:gray;
+	text-align: center;
+	font-size: 16px;
+}
+.divwon, .divtwo, .divthree {
+	position:relative;
+	text-align: center;
+}
+.divfive, .divsix {
+	position:relative;
+	text-align: center;
+	top:10px;
+}
+.blog1 {
+	position:relative;
+	text-align: center;
+	top:10px;
+	
+}
+.blog2
+{
+	position:relative;
+	text-align: center;
+	top:10px;
+	
+}
+.dot {
+	height: 50px;
+	width:50px;
+	background-color: white;
+	display:inline-block;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-food, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-blogs, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+span {
+    color: #2BD6B4;
+}
+<style type="text/css">
+.form-style-9{
+	max-width: 450px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-9 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+	width: 10%;
+}
+.form-style-9 ul li .field-full{
+	width: 50%;
+}
+.form-style-9 ul li input.align-left{
+	float:center;
+}
+.form-style-9 ul li input.align-right{
+	float:center;
+}
+.form-style-9 ul li textarea{
+	width: 50%;
+	height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+</style>
+
+</style>
+
+</html>
